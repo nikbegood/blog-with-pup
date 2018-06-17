@@ -58,7 +58,6 @@ INSTALLED_APPS = [
     'taggit',
     'modelcluster',
     'compressor',
-
     'puput',
 ]
 

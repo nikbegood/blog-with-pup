@@ -38,6 +38,7 @@ django-celery-results==1.0.1
 django-ckeditor==5.4.0
 django-classy-tags==0.8.0
 django-cms==3.5.1
+django-compressor==2.2
 django-countries==5.1.1
 django-el-pagination==3.2.4
 django-elasticsearch-dsl==0.4.4
@@ -66,6 +67,18 @@ django-templated-email==2.2.0
 django-treebeard==4.2.0
 django-versatileimagefield==1.9
 django-webpack-loader==0.5.0
+djangocms-admin-style==1.2.7
+djangocms-attributes-field==0.3.0
+djangocms-column==1.7.0
+djangocms-file==2.0.2
+djangocms-googlemap==1.1.1
+djangocms-installer==1.0.0
+djangocms-link==2.1.2
+djangocms-picture==2.0.6
+djangocms-snippet==2.0.0
+djangocms-style==2.0.2
+djangocms-text-ckeditor==3.5.3
+djangocms-video==2.0.4
 djangorestframework==3.6.4
 docutils==0.14
 easy-thumbnails==2.4.2
@@ -116,9 +129,11 @@ python-slugify==1.2.0
 python3-openid==3.1.0
 pytz==2018.3
 PyYAML==3.12
+rcssmin==1.0.6
 redis==2.10.6
 requests==2.18.4
 requests-oauthlib==0.8.0
+rjsmin==1.0.12
 Rx==1.6.0
 s3transfer==0.1.12
 singledispatch==3.4.0.3
@@ -138,6 +153,7 @@ urllib3==1.22
 uWSGI==2.0.15
 vcrpy==1.11.1
 vine==1.1.4
+wagtail==1.13.1
 WeasyPrint==0.42.2
 webencodings==0.5.1
 whitenoise==3.3.1
@@ -146,4 +162,3 @@ wrapt==1.10.11
 xmltodict==0.11.0
 yarl==0.17.0
 YURL==0.13
-
