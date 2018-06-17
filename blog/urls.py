@@ -24,7 +24,6 @@ from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'', include('puput.urls')),
-    url(r'', include(wagtail_urls)),
 ]
 
 urlpatterns += staticfiles_urlpatterns() # tell gunicorn where static files are in dev mode
