@@ -57,6 +57,8 @@ INSTALLED_APPS = [
     'wagtail.contrib.wagtailroutablepage',
     'taggit',
     'modelcluster',
+    'compressor',
+
     'puput',
 ]
 
