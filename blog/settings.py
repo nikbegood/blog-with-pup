@@ -12,11 +12,6 @@ https://docs.djangoproject.com/en/1.11/ref/settings/
 
 import os
 
-import dj_database_url
-
-db_from_env = dj_database_url.config()
-DATABASE['default'].update(db_from_env)
-
 from puput import PUPUT_APPS
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
@@ -156,3 +151,8 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
 
 WAGTAIL_SITE_NAME = 'blog'
+
+import dj_database_url
+
+db_from_env = dj_database_url.config()
+DATABASES['default'].update(db_from_env)
