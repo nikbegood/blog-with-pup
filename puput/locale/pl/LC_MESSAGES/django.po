@@ -1,0 +1,237 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-02-18 17:44+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+
+#: abstracts.py:16
+msgid "body"
+msgstr "treść"
+
+#: abstracts.py:18
+msgid "Post date"
+msgstr "Data dodania"
+
+#: abstracts.py:19 models.py:31
+msgid "Header image"
+msgstr "Obrazek nagłówka"
+
+#: abstracts.py:22
+msgid "excerpt"
+msgstr "streszczenie"
+
+#: abstracts.py:23
+msgid ""
+"Entry excerpt to be displayed on entries list. If this field is not filled, "
+"a truncate version of body text will be used."
+msgstr ""
+"Dodaj streszczenie do wyświetlenia w liście wpisów. Jeżeli to pole nie "
+"zostanie wypełnione, zostanie użyta skrócona wersja tekstu."
+
+#: abstracts.py:33
+msgid "Content"
+msgstr "Zawartość"
+
+#: abstracts.py:36 models.py:134 templates/puput/base.html:71
+msgid "Categories"
+msgstr "Kategorie"
+
+#: abstracts.py:37 templates/puput/related_entries.html:6
+msgid "Related Entries"
+msgstr "Podobne wpisy"
+
+#: abstracts.py:39
+msgid "Metadata"
+msgstr "Metadata"
+
+#: models.py:29 models.py:111
+msgid "Description"
+msgstr "Opis"
+
+#: models.py:30
+msgid "The blog description that will appear under the title."
+msgstr "Opis bloga, który wyświetli się pod tytułem."
+
+#: models.py:34
+msgid "Display comments"
+msgstr "Pokaż komentarze"
+
+#: models.py:35
+msgid "Display categories"
+msgstr "Pokaż kategorie"
+
+#: models.py:36
+msgid "Display tags"
+msgstr "Pokaż tagi"
+
+#: models.py:37
+msgid "Display popular entries"
+msgstr "Pokaż popularne wpisy"
+
+#: models.py:38
+msgid "Display last entries"
+msgstr "Pokaż najnowsze wpisy"
+
+#: models.py:39
+msgid "Display archive"
+msgstr "Pokaż archiwum"
+
+#: models.py:44
+msgid "Entries per page"
+msgstr "Liczba wpisów na stronie"
+
+#: models.py:45
+msgid "Last entries limit"
+msgstr "Limit nowych wpisów"
+
+#: models.py:46
+msgid "Popular entries limit"
+msgstr "Limit popularnych wpisów"
+
+#: models.py:47
+msgid "Tags limit entry header"
+msgstr "Limit tagów na wpis"
+
+#: models.py:49
+msgid "Use short description in feeds"
+msgstr "Używaj krótkich opisów w feedzie"
+
+#: models.py:64
+msgid "Widgets"
+msgstr "Widżety"
+
+#: models.py:70
+msgid "Parameters"
+msgstr "Parametry"
+
+#: models.py:75
+msgid "Comments"
+msgstr "Komentarze"
+
+#: models.py:78
+msgid "Feeds"
+msgstr "Feedy"
+
+#: models.py:101
+msgid "Blog"
+msgstr "Blog"
+
+#: models.py:107
+msgid "Category name"
+msgstr "Nazwa kategorii"
+
+#: models.py:110
+msgid "Parent category"
+msgstr "Nadrzędna kategoria"
+
+#: models.py:122
+msgid "Parent category cannot be self."
+msgstr "Nadrzędna kategoria nie może zawierać siebie"
+
+#: models.py:124
+msgid "Cannot have circular Parents."
+msgstr "Nie można dodać zapętlających się kategorii nadrzędnych."
+
+#: models.py:133 models.py:138
+msgid "Category"
+msgstr "Kategoria"
+
+#: models.py:158 models.py:159 models.py:202
+msgid "Entry"
+msgstr "Wpis"
+
+#: models.py:203
+msgid "Entries"
+msgstr "Wpisy"
+
+#: routes.py:24
+msgid "date"
+msgstr "data"
+
+#: routes.py:37
+msgid "tag"
+msgstr "tag"
+
+#: routes.py:44
+msgid "category"
+msgstr "kategoria"
+
+#: routes.py:51
+msgid "author"
+msgstr "autor"
+
+#: routes.py:64
+msgid "search"
+msgstr "wyszukiwanie"
+
+#: templates/el_pagination/show_more.html:5
+msgid "more"
+msgstr "więcej"
+
+#: templates/puput/base.html:45
+msgid "Feed RSS"
+msgstr "Feed RSS"
+
+#: templates/puput/base.html:50
+msgid "Search"
+msgstr "Wyszukiwanie"
+
+#: templates/puput/base.html:59
+msgid "Last Entries"
+msgstr "Ostatnie wpisy"
+
+#: templates/puput/base.html:65
+msgid "Popular Entries"
+msgstr "Popularne wpisy"
+
+#: templates/puput/base.html:77
+msgid "Tags"
+msgstr "Tagi"
+
+#: templates/puput/base.html:83
+msgid "Archive"
+msgstr "Archiwum"
+
+#: templates/puput/blog_page.html:6 templates/puput/blog_page.html:7
+#: templates/puput/blog_page.html:29
+msgid "Entries for"
+msgstr "Wpisy dla"
+
+#: templates/puput/blog_page.html:48
+msgid "Continue reading"
+msgstr "Kontynuuj czytanie"
+
+#: templates/puput/blog_page.html:52
+msgid "No results found."
+msgstr "Nie znaleziono wyników."
+
+#: templates/puput/tags/archives_list.html:23
+msgid "No entry archives yet"
+msgstr "Brak wpisów w archiwum"
+
+#: templates/puput/tags/categories_list.html:9
+msgid "No categories yet"
+msgstr "Brak kategorii"
+
+#: templates/puput/tags/entries_list.html:31
+msgid "No entries yet"
+msgstr "Brak wpisów"
+
+#: templates/puput/tags/tags_list.html:9
+msgid "No tags yet"
+msgstr "Brak tagów"
