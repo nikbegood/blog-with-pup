@@ -138,7 +138,6 @@ urllib3==1.22
 uWSGI==2.0.15
 vcrpy==1.11.1
 vine==1.1.4
-wagtail==1.13.1
 WeasyPrint==0.42.2
 webencodings==0.5.1
 whitenoise==3.3.1
