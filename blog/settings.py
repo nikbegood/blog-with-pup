@@ -97,6 +97,8 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'blog.wsgi.application'
 
+WAGTAIL_SITE_NAME = 'Puput blog'
+
 
 # Database
 # https://docs.djangoproject.com/en/1.11/ref/settings/#databases
